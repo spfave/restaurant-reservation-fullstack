@@ -18,14 +18,19 @@ const waitList = [];
 // Routes
 
 // return restaurant reservation homepage
+app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'home.html')));
 
 // return reservation page
+app.get('/make', (req, res) => res.sendFile(path.join(__dirname, 'make.html')));
 
 // return view tables page
+app.get('/view', (req, res) => res.sendFile(path.join(__dirname, 'view.html')));
 
 // API get all table reservations
+app.get('/api/tables', (req, res) => res.json(reservations));
 
 // API get all table wait list reservations
+app.get('/api/waitlist', (req, res) => res.json(waitList));
 
 // API post new table reservation (logic to chosen between reservation and wait list)
 
