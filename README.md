@@ -9,4 +9,4 @@ Sallieu Kanu
 Jung Nam
 Hany Shaalan
 
-## [Demo Application - Heroku Deployed](https://intense-savannah-93721.herokuapp.com/view)
+## [Demo Application - Heroku Deployed](https://restaurant-res-fullstack.herokuapp.com/)
