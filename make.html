@@ -11,29 +11,28 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Amarante&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" type="text/css" src="./css/style.css">
 </head>
 
 <body>
 
-  <h3>Table Reservation</h3>
+  <h3 class="text-center p-4">Table Reservation</h3>
 
   <div class="container">
     <form method="POST" role="form">
-      <label for="fname"> Name</label>
-      <input type="text" id="fname" name="fname" placeholder="Your name..">
-
-      <label for="phonenumber">Phone Number</label>
-      <input type="text" id="phonenumber" name="phonenumber" placeholder="Your last Phone Number..">
-
-      <label for="email">email</label>
-      <input type="text" id="email" name="email" placeholder="Your email..">
-
-
-      <label for="uniqueID">Unique ID</label>
-      <input type="text" id="uniqueID" name="uniqueID" placeholder="Unique ID..">
-
-
+      <label for="fname" class="form-label"> Name</label>
+      <input type="text" id="fname" class="form-control" name="fname" placeholder="Your name..">
+      <br>
+      <label for="phonenumber" class="form-label">Phone Number</label>
+      <input type="text" id="phonenumber" class="form-control" name="phonenumber"
+        placeholder="Your last Phone Number..">
+      <br>
+      <label for="email" class="form-label">Email</label>
+      <input type="text" id="email" class="form-control" name="email" placeholder="Your email..">
+      <br>
+      <label for="uniqueID" class="form-label">Unique ID</label>
+      <input type="text" id="uniqueID" class="form-control" name="uniqueID" placeholder="Unique ID..">
+      <br>
       <input type="submit" id="submit" value="Submit">
     </form>
   </div>
