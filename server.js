@@ -23,9 +23,11 @@ const waitList = [];
 
 // return view tables page
 
-// API post new table reservation
-
 // API get all table reservations
+
+// API get all table wait list reservations
+
+// API post new table reservation (logic to chosen between reservation and wait list)
 
 // Starts the server to begin listening
 app.listen(PORT, () => console.log(`App listening on PORT ${PORT}`));
